@@ -127,7 +127,6 @@ main {
 .hero-info h2 {
   font-size: 48px;
   width: 80%;
-  min-width: 500px;
   font-weight: 800;
  color: var(--text-white);
  
@@ -137,6 +136,7 @@ main {
   font-size: 15px;
   width: 70%;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .hero-info p > span {

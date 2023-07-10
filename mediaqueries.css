@@ -19,13 +19,13 @@
 }
 
 .navbar-list a {
-  color: var(--text-gray);
+  color: gray;
   font-size: 14px;
 }
 
 .navbar-list li:first-child > a {
   color: var(--text-white);
-  font-weight: 600;
+  font-weight: 800;
 }
 
 
@@ -171,13 +171,12 @@ width: 30%;
 
 .info-card {
   width: 300px;
-  height: 360px;
+  height: 370px;
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: var(--secondary);
   border-radius: 10px;
   gap: 20px;
 }
@@ -196,10 +195,7 @@ width: 30%;
 
 #contact h1 {
  font-size: 40px;
- background: linear-gradient(to top ,rgb(153, 30, 30),#000000);
- background-clip: text;
- color: transparent;
- -webkit-background-clip: text;
+
  padding: 20px 0px;
 }
 
@@ -255,7 +251,7 @@ font-size: 20px;
 margin-bottom: 65px;
   position: relative;
   width: 600px;
-  padding-bottom: 75%; /* Controla la altura del contenedor. Puedes ajustar este valor según tus necesidades. */
+  padding-bottom: 75%; 
   overflow: hidden;
 }
 
@@ -291,7 +287,6 @@ margin-bottom: 65px;
     background-position: center;
     position: relative;
     overflow: hidden;
-    padding: 100px 0px;
   }
 
   #hero:before {
@@ -301,6 +296,7 @@ margin-bottom: 65px;
     left: 0;
     right: 0;
     bottom: 0;
+   
     background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según tus necesidades */
   }
 
@@ -364,6 +360,7 @@ margin-bottom: 65px;
    text-align: center;
    position: relative;
    z-index: 1;
+   padding: 100px 0px;
   }
   
   .hero-info h2 {
@@ -431,14 +428,6 @@ font-weight: 600;
 color: var(--text-white);
 text-decoration: underline;
 }
-
-
-
-
-
-
-
-
 
 
 .info-cards-container {
@@ -521,7 +510,7 @@ font-size: 20px;
       
       .about-info p {
         font-size: 16px;
-         width: 110%;
+  width: 140%;
        }
 
        .button {
@@ -562,10 +551,7 @@ font-size: 20px;
        #about h2 {
         font-size: 45px;
        }
-       .about-info p {
-        font-size: 16px;
-         width: 100%;
-       }
+  
  
        .contact-info p {
          font-size: 16px;
@@ -609,14 +595,14 @@ font-size: 20px;
       .info-card p {
         font-size: 14px;
         font-weight: 300;
-        color: var(--text-gray);
+       color: #ffffff;
       }
       
      }
 
      @media (max-width: 840px) {
       .about-info p{
-        width: 180%;
+        width: 120%;
       }
 
       .button {
@@ -630,7 +616,7 @@ font-size: 20px;
       
       .about-info p{
   
-        width: 190%;
+        width: 120%;
       }
 
       .button {
@@ -639,7 +625,7 @@ font-size: 20px;
       }
 
       .contact-info h2 {
-width: 70%;
+        width: 70%;
       }
      }
 
@@ -695,6 +681,10 @@ width: 70%;
         width: 110px;
         font-size: 14px;
         padding: 3px 0px;
+      }
+
+      .hero-info h2   {
+   font-size: 40px;
       }
       .hero-info {
         gap: 10px;
@@ -770,7 +760,7 @@ width: 70%;
 
       .hero-info p {
         font-size: 14px;
-        width: 140%;
+        width: 190%;
       }
 
       
@@ -861,6 +851,10 @@ width: 70%;
         .button {
           width: 110px;
         }
+
+        .hero-info p {
+          width: 190%;
+        }
       }
 
      @media (max-width: 400px) {
@@ -894,7 +888,7 @@ width: 70%;
       .button {
         font-size: 12px;
         padding: 3px 0px;
-        width: 110px;
+        width: 80px;
       }
 
 #hero {
@@ -908,12 +902,12 @@ width: 70%;
 
       .hero-info h2 {
         font-size: 30px;
-        width: 120%;
+        width: 170%;
       }
 
       .hero-info p {
         font-size: 13px;
-        width: 130%;
+        width: 190%;
       }
 
       #about h2 {
@@ -1085,8 +1079,8 @@ footer span {
 
 
       .button {
-        width: 100px;
-        font-size: 10px;
+        width: 60px;
+        font-size: 9px;
         padding: 5px 0px;
       }
       .hero-info {
@@ -1095,11 +1089,12 @@ footer span {
 
       .hero-info h2 {
         font-size: 28px;
+        width: 180%;
       }
 
       .hero-info p {
         font-size: 11px;
-        width: 120%;
+        width: 190%;
       }
 
       #about h2 {
