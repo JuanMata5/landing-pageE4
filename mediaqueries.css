@@ -839,9 +839,8 @@ font-size: 20px;
         font-size: 14px;
         width: 170%;
       }
- /*---------------------------------------------------------*/
-  
- /* CARDS*/
+ /*----------------------------------------------------------------------*/
+  /* CARDS*/
 
       #info h1 {
         font-size: 35px;
@@ -900,7 +899,7 @@ font-size: 20px;
 
         position: relative;
         width: 300px;
-        padding-bottom: 85%; 
+        padding-bottom: 85%; /* Controla la altura del contenedor. Puedes ajustar este valor según tus necesidades. */
         overflow: hidden;
       }
       
@@ -912,11 +911,6 @@ font-size: 20px;
         height: 100%;
       }
       }
- /*-----------------------------------------------------------------------*/
-
-
-
-
 
 
       @media (max-width: 450px) {
@@ -936,8 +930,6 @@ font-size: 20px;
           width: 190%;
         }
       }
-
- /*-----------------------------------------------------------------------*/     
 
       @media (max-width: 464px) {
   .button {

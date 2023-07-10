@@ -104,7 +104,11 @@ main {
   max-width: 1200px;
   justify-content: center;
   align-items: center;
+
+  
 }
+
+
 
 .hero-img {
     width: 500px;
@@ -117,11 +121,13 @@ main {
     -o-border-radius: 50px;
 }
 
+
 .hero-info {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 50%;
+ 
 }
 
 .hero-info h2 {
@@ -134,7 +140,7 @@ main {
 
 .hero-info p {
   font-size: 15px;
-  width: 70%;
+  width: 90%;
   color: #ffffff;
   font-weight: 600;
 }
