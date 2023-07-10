@@ -310,11 +310,11 @@ margin-bottom: 65px;
                         opacity: 0;
                         max-height: 0;
                         overflow: hidden;
-                        transition: max-height 1s ease-out, opacity .3s ease-out;
-                        -webkit-transition: max-height 1s ease-out, opacity .3s ease-out;
-                        -moz-transition: max-height 1s ease-out, opacity .3s ease-out;
-                        -ms-transition: max-height 1s ease-out, opacity .3s ease-out;
-                        -o-transition: max-height 1s ease-out, opacity .3s ease-out;
+                        transition: max-height 2s ease-out, opacity .3s ease-out;
+                        -webkit-transition: max-height 2s ease-out, opacity .3s ease-out;
+                        -moz-transition: max-height 2s ease-out, opacity .3s ease-out;
+                        -ms-transition: max-height 2s ease-out, opacity .3s ease-out;
+                        -o-transition: max-height 2s ease-out, opacity .3s ease-out;
 }
                       
                       .navbar-list a {
