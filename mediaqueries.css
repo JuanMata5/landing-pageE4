@@ -333,7 +333,7 @@ margin-bottom: 65px;
 
 
   #hero {
-    background-image: url(/landingpage/adrien-olichon-ZgREXhl8ER0-unsplash.jpg);
+    background-image: url(/landingpage/Main/adrien-olichon-ZgREXhl8ER0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -872,7 +872,7 @@ font-size: 20px;
   font-size: 35px;
   
     } 
- /*------------------------------------------------------*/
+
       .contact-info {
         display: flex;
         justify-content: center;
@@ -900,7 +900,7 @@ font-size: 20px;
 
         position: relative;
         width: 300px;
-        padding-bottom: 85%; /* Controla la altura del contenedor. Puedes ajustar este valor según tus necesidades. */
+        padding-bottom: 85%; 
         overflow: hidden;
       }
       
@@ -912,6 +912,11 @@ font-size: 20px;
         height: 100%;
       }
       }
+ /*-----------------------------------------------------------------------*/
+
+
+
+
 
 
       @media (max-width: 450px) {
@@ -931,6 +936,8 @@ font-size: 20px;
           width: 190%;
         }
       }
+
+ /*-----------------------------------------------------------------------*/     
 
       @media (max-width: 464px) {
   .button {
